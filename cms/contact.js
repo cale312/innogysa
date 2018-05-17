@@ -1,5 +1,5 @@
 ({
-	heading: 'Voice it out, as loud as a vuvuela!',
+	heading: 'Voice it out, as loud as a vuvuzela!',
 	sub_heading: 'Striving for perfection.',
 	portfolio_description: [
 		{
