@@ -1,7 +1,7 @@
 ({
-	first_slide_left: {
-		header: 'We are Innogy\'s Digital Creative Agency'
-	},
+	banner_text: 'WE ARE INNOGY\'S SOUTH AFRICAN DIGITAL AGENCY',
+	quote: 'THERE IS NO PASSION TO BE FOUND IN PLAYING SMALL -',
+	author: 'Nelson Mandela',
 	first_slide_right: [
 		{
 			$paragraph_type: 'textarea',

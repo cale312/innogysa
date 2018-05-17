@@ -123,28 +123,85 @@
 
 	</div>
 
-	<div class="home_banner"></div>
+	<div class="home_banner">
+		<h1 class="banner_text">{{banner_text}}</h1>
+	</div>
 
 	<div class="short">
-
-		{{#with first_slide_left}}
-			<h1 class="short">{{header}}</h1>
-		{{/with}}
+		<div class="short_combined">
+			<img class="short_image" src="assets/img/pattern_2.png">
+			<h1 class="short">{{quote}}
+				<span class="short_sub_text">{{author}}</span>
+			</h1>
+			<img class="short_image_1" src="assets/img/pattern_2.png">
+		</div>
 
 		<div class="about_text">
-			{{#each first_slide_right}}
 
-			<p class="sub_heading">{{sub_heading}}</p>
+			<p class="sub_heading">Who we are</p>
 
-			<p class="about">{{paragraph}}</p>
+			<p class="about">The Garage was launched in 2017 as part of innogy SE, a leading European energy company. Local Garages were created to
+				accelerate digital product design and development for innogy.</p>
 
-			{{/each}}
+			<p class="sub_heading">Our goal</p>
+
+			<p class="about">We bring researchers, designers and technologists together to create the best digital solutions for your customers.
+			</p>
+
+			<p class="sub_heading">Wwe are international</p>
+
+			<p class="about">With Garages in Amsterdam, Berlin and Cape Town.</p>
+
+
 		</div>
-		
-	</div>
-	<div class="regular"></div>
 
-	<div class="service"></div>
+	</div>
+
+	<div class="ubuntu">
+		<img class="ubuntu_pattern" src="assets/img/pattern_1.png">
+		<br>
+		<p class="ubuntu_text">“We go by the word
+			<span>ubuntu</span>, which is a quality that includes the essential human virtues; compassion and humanity”</p>
+		<br>
+		<img class="ubuntu_pattern" src="assets/img/pattern_1.png">
+	</div>
+
+	<div class="how_work">
+
+		<h1 class="how_we_work">How do we work?</h1>
+		<p class="sub_heading">We work agile and user centered</p>
+		<p class="work_text">Agile means we focus on fast - yet efficient - making through sprints.
+			<br>
+			<br> User centered means that our main focus is the user and his behaviour. We always design solutions for people first. We
+			believe that once you own a product or service that people actually use and love, your business will benefit inevitably.</p>
+
+	</div>
+
+	<div class="service">
+
+		<div class="service_text">
+			<img class="service_image" src="assets/img/explore.png">
+			<h2>We Explore</h2>
+			<p>We get to the core of the problem and define possible value propositions.</p>
+
+		</div>
+
+		<div class="service_text">
+			<img class="service_image" src="assets/img/validate.png">
+			<h2>We Validate</h2>
+			<p>We want to know if your concept actual solves a problem for the users. </p>
+		</div>
+
+		<div class="service_text">
+			<img class="service_image" src="assets/img/design.png">
+			<h2>We Design and Build</h2>
+			<p>The core of our belief specifically lies in the process of making.</p>
+
+		</div>
+		<br>
+		<button class="services_button">READ MORE</button>
+
+	</div>
 
 	<div class="portfolio"></div>
 

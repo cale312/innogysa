@@ -1,0 +1,96 @@
+.footer {
+    background: #151515;
+    color: #fff;
+    padding: 40px 0
+}
+
+.footer div:first-child {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 25px;
+    overflow: hidden
+}
+
+.footer .logo {
+    display: none
+}
+
+.footer__lists {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.footer__lists__list {
+    margin: 15px 0;
+    font-weight: 200;
+    line-height: 1.5
+}
+
+.footer__lists__list__title {
+    font-weight: 300;
+    font-size: 20px
+}
+
+.footer__lists__list__email {
+    margin: 20px 0
+}
+
+.footer__lists__list__socials {
+    overflow: hidden
+}
+
+.footer__lists__list__socials a {
+    float: left
+}
+
+.footer__lists__list__socials .svg-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer
+}
+
+.footer__lists__list__socials .svg-icon:hover .svg-icon--color {
+    fill: #ffc300
+}
+
+.footer__lists__list__socials .svg-icon .mask {
+    fill: #000
+}
+
+.footer__lists__list__socials .svg-icon .svg-icon--color {
+    fill: #fff;
+    transition: all .1s ease-in-out
+}
+
+@media screen and (min-width:768px) {
+    .footer div:first-child {
+        width: 80%
+    }
+    .footer .logo {
+        display: block;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 250px;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 50px
+    }
+    .footer .logo .svg-icon--color {
+        fill: #fff
+    }
+    .footer__lists {
+        float: right
+    }
+    .footer__lists__list {
+        float: none;
+        width: auto;
+        margin: 15px 0;
+        font-weight: 200;
+        line-height: 1.5
+    }
+}
