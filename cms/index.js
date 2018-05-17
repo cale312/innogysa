@@ -19,18 +19,18 @@
 			paragraph: 'With Garages in Amsterdam, Berlin and Cape Town.'
 		}
 	],
-	sample_projects: [
+	projects: [
 		{
 			$image_type: 'image',
 			image: '/assets/img/1.png'
 		},
 		{
 			$image_type: 'image',
-			image: '/assets/img/2.png'
+			image: '/remote/direct_uploads/1526575028_2.png'
 		},
 		{
 			$image_type: 'image',
 			image: '/assets/img/3.png'
 		}
-	] 
+	]
 })

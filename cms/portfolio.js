@@ -2,22 +2,17 @@
 	heading: {
 		header: 'OUR PORTFOLIO'
 	},
-	description: [
-		{
-			$sub_heading_type: 'textarea',
-			sub_heading: 'Striving for perfection.'
-		},
-		{
+	sub_heading: 'Striving for perfection.',
+	description: [{
 			$paragraph_type: 'textarea',
 			paragraph: 'South Africa might be home to the big 5 game animals, but when it comes to design projects, we have more than that.'
 		},
 		{
 			$paragraph_type: 'textarea',
-			paragraph: 'Duo utinam option ex, etiam luptatum consequat id qui, cum alii dicat nostro id! Ne nam feugait persecuti voluptatum, latine singulis expetendis est an? Sit eros qualisque liberavisse ea! Eu impetus facilisi mandamus ius.'
+			paragraph: 'With our different areas of expertise, we can tackle problems and come up with innovative solutions to surprise you. Actions speak louder than words, so have a look at our past projects, and just imagine how beneficial this would be to you.'
 		}
 	],
-	projects: [
-		{
+	projects: [{
 			$image_type: 'image',
 			image: '/assets/img/1.png'
 		},

@@ -1,59 +1,58 @@
 @font-face {
-	font-family: innogyWebBold;
-	src: url(./fonts/innogyWEB-Bold/innogyWEB-Bold.woff);
+    font-family: innogyWebBold;
+    src: url(./fonts/innogyWEB-Bold/innogyWEB-Bold.woff);
 }
 
 @font-face {
-	font-family: innogyWebLight;
-	src: url(./fonts/innogyWEB-Light/innogyWEB-Light.woff);
+    font-family: innogyWebLight;
+    src: url(./fonts/innogyWEB-Light/innogyWEB-Light.woff);
 }
 
 @font-face {
-	font-family: innogyWebRegular;
-	src: url(./fonts/innogyWEB-Regular/innogyWEB-Regular.woff);
+    font-family: innogyWebRegular;
+    src: url(./fonts/innogyWEB-Regular/innogyWEB-Regular.woff);
 }
 
 @font-face {
-	font-family: innogyWebMedium;
-	src: url(./fonts/innogyWEB-Medium/innogyWEB-Medium.woff);
+    font-family: innogyWebMedium;
+    src: url(./fonts/innogyWEB-Medium/innogyWEB-Medium.woff);
 }
 
 h1 {
-	font-family: innogyWebLight;
+    font-family: innogyWebLight;
 }
 
 p,
 small,
 li {
-	font-family: innogyWebRegular;
+    font-family: innogyWebRegular;
 }
 
 @import url(footer.css);
 @import url(nav.css);
-
 /*Homepage*/
 
 body {
-  margin: 0 auto;
-  height: auto; 
-  font-family: innogyWEB, sans-serif
+    margin: 0 auto;
+    height: auto;
+    font-family: innogyWEB, sans-serif
 }
 
 h1 {
-	text-transform: uppercase;
-	font-size: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
     font-weight: normal;
 }
 
 p {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 .home_banner {
-	height: 700px;
-	width: 100%;
-	background-image: url(../img/home_banner.png);
-	background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/home_banner.png);
+    background-size: cover;
 }
 
 h1.banner_text {
@@ -74,7 +73,7 @@ h1.banner_text {
 }
 
 .short_combined {
-        width: 45%;
+    width: 45%;
     display: inline-block;
 }
 
@@ -82,14 +81,14 @@ h1.short {
     width: 45%;
     font-size: 40px;
     /* padding-top: 7%; */
-		
 }
 
 span.short_sub_text {
     color: #000;
     text-transform: none;
-        font-size: 36px;
+    font-size: 36px;
 }
+
 .short_image {
     display: flex;
     /* width: 13%; */
@@ -97,7 +96,6 @@ span.short_sub_text {
     margin-left: 45%;
     text-align: center;
     /* flex-direction: inherit; */
-
 }
 
 .short_image_1 {
@@ -105,41 +103,38 @@ span.short_sub_text {
     margin-left: 45%;
     text-align: center;
     /* flex-direction: inherit; */
-
 }
 
 .about_text {
-	width: 49%;
-	display: inline-block;
-	font-size: 20px;
-	height: 435px;
-	float: right;
-	text-align: left;
-	padding-top: 5%;
+    width: 49%;
+    display: inline-block;
+    font-size: 20px;
+    height: 435px;
+    float: right;
+    text-align: left;
+    padding-top: 5%;
 }
 
 p.sub_heading {
-	font-weight: bold;
-	}
+    font-weight: bold;
+}
 
 p.about {
-	width: 565px;
-
+    width: 565px;
 }
 
 .ubuntu {
     height: 370px;
     background-color: #143C8C;
     text-align: center;
-
 }
+
 p.ubuntu_text {
     color: #fff;
     width: 33%;
     display: inline-block;
     font-weight: normal;
     font-size: 23px;
-
 }
 
 span {
@@ -150,13 +145,13 @@ span {
     padding-top: 3%;
     padding-bottom: 2%;
 }
+
 /*how do we work*/
 
-.how_work{
-height: 320px;
-background-color: #fff;
-text-align: center;
-
+.how_work {
+    height: 320px;
+    background-color: #fff;
+    text-align: center;
 }
 
 h1.how_we_work {
@@ -171,13 +166,15 @@ p.work_text {
 /*Services*/
 
 .service {
-	width: 100%;
-	height: 600px;
-   text-align: center;
+    width: 100%;
+    height: 600px;
+    text-align: center;
 }
+
 .service_images {
     width: 100%;
 }
+
 .service_image {
     margin-top: 100px;
     margin-bottom: 10px;
@@ -185,21 +182,19 @@ p.work_text {
 
 .service_text {
     display: inline-block;
-        display: inline-block;
+    display: inline-block;
     width: 20%;
     margin: 20px;
 }
 
 button.services_button {
     text-align: center;
-
-
-
 }
+
 /*Portfolio_images*/
 
 .portfolio {
-height: 700px;
+    height: 700px;
     background-color: #F4F2F1;
     text-align: center;
     padding-top: 60px;
@@ -210,7 +205,6 @@ h1.portfolio_text {
 }
 
 .portfolio_image {
-    
     margin: 20px;
 }
 
@@ -222,7 +216,7 @@ button.portfolio_button {
 /*PARTNERS*/
 
 .partners {
-	height: 435px;
+    height: 435px;
 }
 
 h1.partners_heading {
@@ -244,11 +238,11 @@ h1.partners_heading {
 /*Get in touch banner*/
 
 .contact {
-	height: 500px;
-	background-image: url(../img/contact.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+    height: 500px;
+    background-image: url(../img/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h1.contact_heading {
@@ -269,126 +263,111 @@ button.contact_button {
 }
 
 .patterns {
-	height: 49px;
-	background-image: url(../img/patterns.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+    height: 49px;
+    background-image: url(../img/patterns.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /*Footer*/
 
-
-
 /*Portfolio-Page*/
 
 .banner_portfolio {
-	height: 500px;
-	background-image: url(../img/cover_portfolio.png);
-		background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+    height: 500px;
+    background-image: url(../img/cover_portfolio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .portfolio_description {
-	height: 230px;
-	text-align: center;
-	margin-top: 100px;
-	margin-bottom: 100px;
+    height: 230px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .project_images {
-	height: 375px;
-	text-align: center;
-	
+    height: 375px;
+    text-align: center;
 }
 
 .project_images_2 {
-	height: 375px;
-	text-align: center;
-	margin-bottom: 100px;
-	
+    height: 375px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 .project_mockups {
-	margin: 5px;
+    margin: 5px;
 }
 
-p.about_portfolio { 
-	display: inline-block;
-	width: 55%;
-	 }
-
+.about_portfolio {
+    display: inline-block;
+    width: 55%;
+}
 
 /*Contact-Page*/
 
 .banner_contact {
-		height: 500px;
-	background-image: url(../img/banner_contact.png);
-		background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+    height: 500px;
+    background-image: url(../img/banner_contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 p.about_contact {
-display: inline-block;
+    display: inline-block;
     width: 55%;
 }
 
 form {
-	text-align: center;
-	height: 600px;
-
+    text-align: center;
+    height: 600px;
 }
 
 .form_1 {
-	margin: 20px;
-	width: 355px;
-	height: 33px;
-	border-radius: 5px;
+    margin: 20px;
+    width: 355px;
+    height: 33px;
+    border-radius: 5px;
 }
 
 .form_2 {
-		margin: 20px;
-	width: 355px;
-	height: 33px;
-	border-radius: 5px;
-
+    margin: 20px;
+    width: 355px;
+    height: 33px;
+    border-radius: 5px;
 }
 
 .form_message {
-	width: 760px;
-	height: 170px;
-	margin: 20px;
-	border-radius: 5px;
-
+    width: 760px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
-
 button {
-	margin: 20px;
-	border-radius: 25px;
-	height: 47px;
-	width: 200px;
-	font-size: 12px;
-	color: #fff;
-	background-color: #F5A623;
+    margin: 20px;
+    border-radius: 25px;
+    height: 47px;
+    width: 200px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #F5A623;
     border-style: none;
     cursor: pointer;
-	
 }
 
 input {
-    outline-color: #F59B00; }
+    outline-color: #F59B00;
+}
+
 input:focus {
-      outline-color: #F59B00; }
-
-
-
-
+    outline-color: #F59B00;
+}
 
 /*nav ex*/
-
-
-
-
