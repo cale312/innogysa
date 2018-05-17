@@ -1,0 +1,268 @@
+@font-face {
+	font-family: innogyWebBold;
+	src: url(./fonts/innogyWEB-Bold/innogyWEB-Bold.woff);
+}
+
+@font-face {
+	font-family: innogyWebLight;
+	src: url(./fonts/innogyWEB-Light/innogyWEB-Light.woff);
+}
+
+@font-face {
+	font-family: innogyWebRegular;
+	src: url(./fonts/innogyWEB-Regular/innogyWEB-Regular.woff);
+}
+
+@font-face {
+	font-family: innogyWebMedium;
+	src: url(./fonts/innogyWEB-Medium/innogyWEB-Medium.woff);
+}
+
+h1 {
+	font-family: innogyWebLight;
+}
+
+p,
+small,
+li {
+	font-family: innogyWebRegular;
+}
+
+/*Homepage*/
+
+body {
+	margin: 0 auto;
+	height: auto;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.nav_bar {
+	height: 55px;
+	background-color: #151515;
+	width: 100%;
+	background-image: url(../img/header.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.home_banner {
+	height: 615px;
+	width: 100%;
+	background-image: url(../img/banner_top.jpg);
+	background-size: cover;
+}
+
+.short {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+h1.short {
+	width: 200px;
+	font-size: 40px;
+	padding-top: 7%;
+}
+
+.about_text {
+	width: 49%;
+	display: inline-block;
+	font-size: 20px;
+	height: 435px;
+	float: right;
+	text-align: left;
+	padding-top: 5%;
+}
+
+p.sub_heading {
+	font-weight: bold;
+}
+
+p.about {
+	width: 565px;
+}
+
+.regular {
+	height: 435px;
+	background-image: url(../img/work.png);
+	background-position: center;
+	;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #D8D8D8;
+}
+
+.service {
+	width: 100%;
+	height: 450px;
+	background-image: url(../img/service.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.portfolio {
+	height: 600px;
+	background-color: #D8D8D8;
+	background-image: url(../img/portfolio.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.partners {
+	height: 435px;
+	background-image: url(../img/partners.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.contact {
+	height: 450px;
+	background-image: url(../img/contact.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.patterns {
+	height: 41px;
+	background-image: url(../img/patterns.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.footer {
+	height: 309px;
+	background-image: url(../img/footer.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #151515;
+}
+
+/*Portfolio-Page*/
+
+.banner_portfolio {
+	height: 500px;
+	background-image: url(../img/cover_portfolio.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.portfolio_description {
+	height: 230px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.project_images {
+	height: 375px;
+	text-align: center;
+}
+
+.project_images_2 {
+	height: 375px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.project_mockups {
+	margin: 5px;
+}
+
+p.about_portfolio {
+	display: inline-block;
+	width: 70%;
+}
+
+/*Contact-Page*/
+
+.banner_contact {
+	height: 500px;
+	background-image: url(../img/banner_contact.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+form {
+	text-align: center;
+	height: 600px;
+}
+
+.form_1 {
+	margin: 20px;
+	width: 355px;
+	height: 33px;
+	border-radius: 5px;
+}
+
+.form_2 {
+	margin: 20px;
+	width: 355px;
+	height: 33px;
+	border-radius: 5px;
+}
+
+.form_message {
+	width: 760px;
+	height: 170px;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+button {
+	margin: 20px;
+	border-radius: 12px;
+	height: 47px;
+	width: 200px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #B9280A;
+}
+
+input {
+	outline-color: #F59B00;
+}
+
+input:focus {
+	outline-color: #F59B00;
+}
+
+/*nav*/
+
+#nav {
+	float: right;
+	margin-right: 10%;
+}
+
+ul {
+	color: #fff;
+}
+
+li {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
