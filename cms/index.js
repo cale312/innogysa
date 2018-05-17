@@ -18,5 +18,19 @@
 			sub_heading: 'We are international',
 			paragraph: 'With Garages in Amsterdam, Berlin and Cape Town.'
 		}
-	]
+	],
+	sample_projects: [
+		{
+			$image_type: 'image',
+			image: '/assets/img/1.png'
+		},
+		{
+			$image_type: 'image',
+			image: '/assets/img/2.png'
+		},
+		{
+			$image_type: 'image',
+			image: '/assets/img/3.png'
+		}
+	] 
 })
