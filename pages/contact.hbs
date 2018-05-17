@@ -132,17 +132,13 @@
 <body>
 
     <div class="banner_contact"></div>
-
     <div class="portfolio_description">
-        <h1>Voice it out, as loud as a vuvuela!</h1>
-
-        <p class="sub_heading">Striving for perfection.</p>
-
-        <p class="about_portfolio">
-            South Africa might be home to the big 5 game animals, but when it comes to design projects, we have more than that.
-            <br>
-            <br> Duo utinam option ex, etiam luptatum consequat id qui, cum alii dicat nostro id! Ne nam feugait persecuti voluptatum,
-            latine singulis expetendis est an? Sit eros qualisque liberavisse ea! Eu impetus facilisi mandamus ius.</p>
+        <h1>{{heading}}</h1>
+        <p class="sub_heading">{{sub_heading}}</p>
+        
+    {{#each portfolio_description}}
+        <p class="about_portfolio">{{paragraph}}</p>
+    {{/each}}
     </div>
 
 
@@ -174,4 +170,5 @@
 
 </body>
 <script src="/assets/js/nav.js"></script>
+
 </html>
