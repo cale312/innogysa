@@ -130,31 +130,25 @@
     <div class="portfolio_description">
 
         {{#with heading}}
-        <h1>{{header}}</h1>
-        {{/with}} {{#with description}}
-        <p class="sub_heading">{{sub_heading}}</p>
-        {{!--
-        <p class="about_portfolio"> --}}
-            <p>{{paragraph_1}}</p>
-            <p>{{paragraph_2}}</p>
-            {{/with}}
+            <h1>{{header}}</h1>
+        {{/with}}
+
+        {{#each description}}
+            <p class="sub_heading">{{sub_heading}}</p>
+            <p>{{paragraph}}</p>
+        {{/each}}
+
     </div>
 
-    {{#with projects}}
     <div class="project_images">
-        <img class="project_mockups" src={{project1}}>
-        <img class="project_mockups" src={{project2}}>
-        <img class="project_mockups" src={{project3}}>
+
+        {{#each projects}}
+            <img class="project_mockups" src={{image}}>
+        {{/each}}
+        
     </div>
-    <div class="project_images_2">
-        <img class="project_mockups" src={{project4}}>
-        <img class="project_mockups" src={{project5}}>
-        <img class="project_mockups" src={{project6}}>
-    </div>
-    {{/with}}
 
     <div class="contact"></div>
-
     <div class="patterns"></div>
     <div class="footer"></div>
 

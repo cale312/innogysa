@@ -128,24 +128,19 @@
 	<div class="short">
 
 		{{#with first_slide_left}}
-		<h1 class="short">{{header}}</h1>
-		{{/with}} {{#with first_slide_right}}
-		<div class="about_text">
-
-			<p class="sub_heading">{{sub_heading1}}</p>
-
-			<p class="about">{{about1}}</p>
-
-			<p class="sub_heading">{{sub_heading2}}</p>
-
-			<p class="about">{{about2}}</p>
-
-			<p class="sub_heading">{{sub_heading3}}</p>
-
-			<p class="about">{{about3}}</p>
-
-		</div>
+			<h1 class="short">{{header}}</h1>
 		{{/with}}
+
+		<div class="about_text">
+			{{#each first_slide_right}}
+
+			<p class="sub_heading">{{sub_heading}}</p>
+
+			<p class="about">{{paragraph}}</p>
+
+			{{/each}}
+		</div>
+		
 	</div>
 	<div class="regular"></div>
 
