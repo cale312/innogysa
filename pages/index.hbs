@@ -138,19 +138,12 @@
 
 		<div class="about_text">
 
-			<p class="sub_heading">Who we are</p>
+			{{#each first_slide_right}}
 
-			<p class="about">The Garage was launched in 2017 as part of innogy SE, a leading European energy company. Local Garages were created to
-				accelerate digital product design and development for innogy.</p>
+			<p class="sub_heading">{{sub_heading}}</p>
 
-			<p class="sub_heading">Our goal</p>
-
-			<p class="about">We bring researchers, designers and technologists together to create the best digital solutions for your customers.
-			</p>
-
-			<p class="sub_heading">Wwe are international</p>
-
-			<p class="about">With Garages in Amsterdam, Berlin and Cape Town.</p>
+			<p class="about">{{paragraph}}</p>
+			{{/each}}
 
 
 		</div>
